@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(http://livedestinfl.com/wp-content/uploads/2013/10/18849.jpg);
+  background-position: center;
+  background-position: 50% 11.7%;
+  background-attachment: fixed;
+}
+
+.header {
+  margin-top: 2em;
+  margin-bottom: -4em;
+  text-align: center;
+  font-size: 46px;
+  font-family: papyrus, fantasy;
+  color: #3a5449;
+}
+
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4A826A;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    display: flex;
+    align-items: center;
+}
+
+ul.navBar li {
+    float: left;
+}
+
+ul.navBar li a {
+    display: block;
+    color: #F7EBC3;
+    padding: 16px;
+    text-decoration: none;
+}
+
+ul.navBar li a:hover {
+  background-color: #3a5449
+}
+
+#logoImage {
+  margin-left: 10px;
+  margin-top: 6px;
+  margin-right: 10px;
+  height: 40px;
+}
+
+ul.ourSpirits {
+  list-style-type: none;
+  margin-top: 10em;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+main div ul li a#absynth img{
+  /*width:450px;*/
+  height:400px;
+  margin: 0em 0em -3em 0em;
+}
+main div ul li a#marion img{
+  /*width:150px;*/
+  height:300px;
+margin: 4em 5em 0em 2em;
+}
+main div ul li a#vodka img{
+  /*width:190px;*/
+  height:300px;
+margin: 4em 3em 0em 2em;
+}
+main div  ul li a#rum img{
+  /*width:170px;*/
+  height:300px;
+margin: 5.5em 0em 0em 2em;
+}
+
+div div.box1{
+  background-color: #395B4C;
+  float: left;
+  height:120px;
+  width: 150%;
+  /*margin: 0em 1em 0em 7em;*/
+  border-radius: 5px
+}
+
+
+/*div div.box2{
+  background-color: #D1C794;
+  float: left;
+  height:120px;
+  width: 150%;
+  margin: -2.9em 1em 0em 2em;
+  border-radius: 5px;
+}*/
+
+div div.box1 img{
+  height:100px;
+  width:160px;
+  float:left;
+  margin-left: 2%;
+  margin-top: 0.5%;
+}
+/*div ul{
+  margin-bottom: 6em;
+}*/
+
+div.footerimage {
+  /*position: relative;*/
+  /*margin-top:115.5%;*/
+
+  z-index: 1;
+}
+
+div.footerimage img {
+  height:90px;
+
+}
+
+div.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 100px;
+}
+
+div.footer p#bird {
+  text-align: center;
+  font-size: 26px;
+  font-family: Papyrus, fantasy;
+  padding-right: 370px;
+
+}
