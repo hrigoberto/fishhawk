@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(http://livedestinfl.com/wp-content/uploads/2013/10/18849.jpg);
+  background-position: center;
+  background-position: 50% 11.7%;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+header div img{
+  height:130px;
+  width:350px;
+  margin-top:4%;
+}
+
+header div p {
+  text-align: center;
+  margin-top: -7%;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 10px;
+}
+
+nav {
+  list-style: none;
+  font-weight: bold;
+  margin-top: -1%;
+  width: 100%;
+  text-align: center;
+  margin-left: 18%;
+  border-radius: 5px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  border-radius: 5px;
+}
+nav li {
+  margin: 0px;
+  display:;
+  border-radius: 5px;
+}
+nav li a {
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+  font-weight: 200;
+  font-family: Garamond, serif;
+  color: #F7EBC3;
+  background-color: #4A826A;
+  float: left;
+  font-size: 20px;
+}
+nav li a:hover {
+  color: #4A826A;
+  background-color: #F7EBC3;
+}
+nav ul li#leftNav a{
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+}
+nav ul li#rightNav a{
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+main div h1 {
+  float: right;
+  clear: both;
+  margin-right: 4.5em;
+  font-family: Papyrus, fantasy;
+  color: #304F41;
+  font-size: 90px;
+  margin-top: 2%;
+}
+
+
+main div ul {
+  float:left;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+main div ul li{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+main div ul li a#absynth img{
+  width:450px;
+  height:600px;
+  margin: -0.8em 9em 0em 7.5em;
+}
+main div ul li a#marion img{
+  width:150px;
+  height:500px;
+margin: 0em 9em 0em 7.5em;
+}
+main div ul li a#vodka img{
+  width:190px;
+  height:500px;
+margin: 4em 9em 4em 15em;
+}
+main div  ul li a#rum img{
+  width:170px;
+  height:500px;
+margin: 4em 12em 4em 15em;
+}
+
+div div.box3{
+  position:relative;
+  background-color: #F6EBC1;
+  float: left;
+  height:40px;
+  width: 90%;
+  margin: 1em 1em -5em 5em;
+  z-index: 1;
+  text-align: right;
+}
+
+div div.box3 p{
+  font-family: Papyrus, fantasy;
+  font-size: 26px;
+  position:absolute;
+  margin-left: 65%;
+  margin-top: .5%;
+  color: #484741;
+}
+
+div div.box1{
+  background-color: #40705B;
+  float: left;
+  height:120px;
+  width: 80%;
+  margin: -11em 1em 1em 9em;
+  border-radius: 5px
+}
+
+
+div div.box2{
+  background-color: #D1C794;
+  float: left;
+  height:120px;
+  width: 90%;
+  margin: -2.9em 1em 1em 5em;
+  border-radius: 5px;
+}
+
+div div.box1 img{
+  height:100px;
+  width:160px;
+  float:left;
+}
+div ul{
+  margin-bottom: 6em;
+}
