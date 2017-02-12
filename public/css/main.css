@@ -96,7 +96,7 @@ main div ul li{
 main div ul li a#absynth img{
   width:450px;
   height:600px;
-  margin: -0.8em 9em 0em 7.5em;
+  margin: -0.8em 5em 0em 10em;
 }
 main div ul li a#marion img{
   width:150px;
@@ -106,12 +106,12 @@ margin: 0em 9em 0em 7.5em;
 main div ul li a#vodka img{
   width:190px;
   height:500px;
-margin: 4em 9em 4em 15em;
+margin: 4em 9em 4em 17.5em;
 }
 main div  ul li a#rum img{
   width:170px;
   height:500px;
-margin: 4em 12em 4em 15em;
+margin: 4em 12em 4em 12em;
 }
 
 div div.box3{
