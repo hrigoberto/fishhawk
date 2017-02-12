@@ -161,3 +161,15 @@ div div.box1 img{
 div ul{
   margin-bottom: 6em;
 }
+
+div.footerimage {
+  position: absolute;
+  margin-top:120%;
+  margin-left:41%;
+  z-index: 1;
+}
+
+div.footerimage img {
+  height:200px;
+  width:240px;
+}
