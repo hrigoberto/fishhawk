@@ -83,8 +83,10 @@ main div h1 {
 main div ul {
   float:left;
   display: flex;
+  align-items: flex-end
   flex-wrap: wrap;
   list-style: none;
+  margin-left: 4em;
 }
 main div ul li{
   list-style: none;
@@ -94,33 +96,33 @@ main div ul li{
 
 
 main div ul li a#absynth img{
-  width:450px;
-  height:600px;
-  margin: -0.8em 5em 0em 10em;
+  /*width:450px;*/
+  height:500px;
+  margin: 1em 0em 0em 0em;
 }
 main div ul li a#marion img{
-  width:150px;
-  height:500px;
-margin: 0em 9em 0em 7.5em;
+  /*width:150px;*/
+  height:400px;
+margin: 4em 5em 0em 2em;
 }
 main div ul li a#vodka img{
-  width:190px;
-  height:500px;
-margin: 4em 9em 4em 17.5em;
+  /*width:190px;*/
+  height:400px;
+margin: 4em 3em 0em 2em;
 }
 main div  ul li a#rum img{
-  width:170px;
-  height:500px;
-margin: 4em 12em 4em 12em;
+  /*width:170px;*/
+  height:400px;
+margin: 5.5em 0em 0em 2em;
 }
 
-div div.box3{
+/*div div.box3{
   position:relative;
   background-color: #F6EBC1;
   float: left;
   height:40px;
-  width: 90%;
-  margin: 1em 1em -5em 5em;
+  width: 150%;
+  margin: 1em 1em -7em 5em;
   z-index: 1;
   text-align: right;
 }
@@ -129,47 +131,62 @@ div div.box3 p{
   font-family: Papyrus, fantasy;
   font-size: 26px;
   position:absolute;
-  margin-left: 65%;
+  margin-left: 60%;
   margin-top: .5%;
   color: #484741;
-}
+}*/
 
 div div.box1{
-  background-color: #40705B;
+  background-color: #395B4C;
   float: left;
   height:120px;
-  width: 80%;
-  margin: -11em 1em 1em 9em;
+  width: 150%;
+  margin: 0em 1em 0em 7em;
   border-radius: 5px
 }
 
 
-div div.box2{
+/*div div.box2{
   background-color: #D1C794;
   float: left;
   height:120px;
-  width: 90%;
-  margin: -2.9em 1em 1em 5em;
+  width: 150%;
+  margin: -2.9em 1em 0em 2em;
   border-radius: 5px;
-}
+}*/
 
 div div.box1 img{
   height:100px;
   width:160px;
   float:left;
+  margin-left: 2%;
+  margin-top: 0.5%;
 }
 div ul{
   margin-bottom: 6em;
 }
 
 div.footerimage {
-  position: absolute;
-  margin-top:120%;
-  margin-left:41%;
+  /*position: relative;*/
+  /*margin-top:115.5%;*/
+  margin-left:46%;
   z-index: 1;
 }
 
 div.footerimage img {
-  height:200px;
-  width:240px;
+  height:90px;
+
+}
+
+div.footer {
+  margin-right: 30%;
+  margin-left: -10%;
+}
+
+div.footer p#bird {
+  text-align: center;
+  font-size: 26px;
+  font-family: Papyrus, fantasy;
+  padding-right: 370px;
+  
 }
